@@ -663,10 +663,8 @@ section,
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
-.skills.section {
-  
-  background-color: rgb(211, 218, 216);
-  
+.skills.section {  
+  background-color: rgb(226, 231, 230);  
 }
 
 .skills .progress {
@@ -996,7 +994,7 @@ section,
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials.section{
-  background-color: #e0e2e4;
+  background-color: rgb(226, 231, 230);
 }
 
 .testimonials .testimonials-carousel,
