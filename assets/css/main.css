@@ -1465,3 +1465,22 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/*--------------------------------------------------------------
+# Pepe Image Container
+--------------------------------------------------------------*/
+.pepe-image-container {
+  position: fixed;
+  right: -200px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: right 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+  z-index: 1000;
+}
+
+.pepe-image-container.show {
+  right: 0;
+  opacity: 1;
+}
+
