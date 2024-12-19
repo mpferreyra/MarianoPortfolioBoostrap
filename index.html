@@ -266,7 +266,7 @@
             </div><!-- Edn Resume Item -->
 
             <div class="resume-item">
-              <h4>Full Stack Web Developer</h4>
+              <h4>Full Stack Web Developer</h5>
               <h5>Nov 2019 - Oct 2021</h5>
               <p><em>Argentina, Ushuaia, Presencial </em></p>
               <ul>
@@ -495,7 +495,7 @@
     </section><!-- /Testimonials Section -->    
 
     <div id="pepe-image-container" class="pepe-image-container">
-      <img src="assets/img/Microsoft SQL Server.png" alt="Pepe Image">
+      <img src="assets/img/jere2.png" alt="Pepe Image">
     </div>
 
   </main>
@@ -524,9 +524,6 @@
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -540,26 +537,8 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script> 
 
-  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-
-  <script>
-    let inputSequence = '';
-    document.addEventListener('keydown', function(event) {
-      inputSequence += event.key.toLowerCase();
-      if (inputSequence.includes('pepe')) {
-        let pepeImageContainer = document.getElementById('pepe-image-container');
-        pepeImageContainer.classList.add('show');
-        setTimeout(() => {
-          pepeImageContainer.classList.remove('show');
-        }, 2000);
-        inputSequence = '';
-      }
-      if (inputSequence.length > 4) {
-        inputSequence = inputSequence.slice(-4);
-      }
-    });
-  </script>
 
 </body>
 
